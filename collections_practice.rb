@@ -24,13 +24,14 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |item|
-    item[2] = "$"
+  array.each do |i|
+    i[2] = "$"
   end
 end
 
 def find_a(array)
-  array.find_all do |word|
-    word[0] == "a"
+  array.find_all do |i|
+    i[0] == "a"
   end
 end
+
