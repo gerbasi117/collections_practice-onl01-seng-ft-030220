@@ -9,8 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort do |one, two|
-    one.length <=> two.length
+  array.sort do 
   end
 end
 
