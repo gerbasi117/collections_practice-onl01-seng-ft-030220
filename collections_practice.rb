@@ -3,13 +3,14 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort do | one, two|
+  array.sort do |one, two|
     one <=> two
   end
 end
 
 def sort_array_char_count(array)
-  array.sort do 
+  array.sort do |one, two|
+    one.length <=> two.length
   end
 end
 
